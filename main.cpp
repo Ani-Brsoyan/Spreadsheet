@@ -49,5 +49,6 @@ int main() {
 	Cell newCell3 = s.getCellAt(0, 2);
 	std::cout << newCell3.getValue() << " " << newCell3.getColor() << std::endl;
 	std::cout << s.getCol() << std::endl;
+	delete c;
 	return 0;
 }
