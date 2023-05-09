@@ -15,7 +15,7 @@ int Spreadsheet::getRow(){
 }
 
 int Spreadsheet::getCol(){
-	return col
+	return col;
 }
 
 void Spreadsheet::setCellAt(int r, int c){
